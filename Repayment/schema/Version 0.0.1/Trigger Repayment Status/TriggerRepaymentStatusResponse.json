@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://bagisto.collegechalo.com/ocen/Repayment/schema/Version%200.0.1/Trigger%20Repayment%20Status/TriggerRepaymentStatusResponse.json", 
+	"$id": "http://143.110.176.172/ocen/Repayment/schema/Version%200.0.1/Trigger%20Repayment%20Status/TriggerRepaymentStatusResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,7 +10,7 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/metadata.json"
 			
 		}
 ,
@@ -21,11 +21,11 @@
 			"type":"string"
 		},
 		"response": { 
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/response.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/response.json"
 		}
 ,
 		"payment": {
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/paymentplan.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/paymentplan.json"
 		}
 
 	}

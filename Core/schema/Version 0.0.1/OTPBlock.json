@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/OTPBlock.json", 
+	"$id": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/OTPBlock.json", 
 	"type": "object",
 	"required": [
 		"status"
@@ -37,7 +37,7 @@
 			"type":"string"
 		},
 		"extensibleData":{
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/extensibleData.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/extensibleData.json"
 		}
 	}
 }

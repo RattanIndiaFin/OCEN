@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/loanOffer.json", 
+	"$id": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/loanOffer.json", 
 	"type": "object",
 	"required": [
         "loanApplicationId",
@@ -13,19 +13,19 @@
         "rejectionDetails":{
             "type":"array",
             "items": {
-                "$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/rejectiondetail.json"
+                "$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/rejectiondetail.json"
             }
         },
         "actionRequired":{
             "type":"array",
             "items": {
-                "$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/actionrequired.json"
+                "$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/actionrequired.json"
             }
         },
         "offers":{
             "type":"array",
             "items": {
-                "$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/offer.json"
+                "$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/offer.json"
             }
         },
         "loanApplicationStatus":{

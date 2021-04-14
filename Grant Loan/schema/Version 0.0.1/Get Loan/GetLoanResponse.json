@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://bagisto.collegechalo.com/ocen/Grant%20Loan/schema/Version%200.0.1/Get%20Loan/GetLoanResponse.json", 
+	"$id": "http://143.110.176.172/ocen/Grant%20Loan/schema/Version%200.0.1/Get%20Loan/GetLoanResponse.json", 
 	"type": "object",
 	"required": [
 		"metadata",
@@ -23,11 +23,11 @@
 	],
 	"properties": {
 		"metadata": {
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/metadata.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/metadata.json"
 		}
 ,
 		"response": { 
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/response.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/response.json"
 		}
 ,
 		"loanId": { 
@@ -59,41 +59,41 @@
 			]
 		},
 		"borrower": {
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/borrower.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/borrower.json"
 		},
 		"lender":{
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/lender.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/lender.json"
 		},
 		"collaterals": {
 			"type": "array",
 			"items":{
-            "$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/collateral.json"
+            "$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/collateral.json"
             }
 
 		},
 		"guarantors": {
 			"type": "array",
 			"items": {
-				"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/guarantor.json"
+				"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/guarantor.json"
 			}
 		},
 		"applicants": { 
 			"type": "array",
 			"items":{
-				"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/applicant.json"
+				"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/applicant.json"
 			}
 
 		},
 		"terms": {
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/loanterms.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/loanterms.json"
 		}
 ,
 		"disbursement": {
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/chosenDisbursement.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/chosenDisbursement.json"
 		}
 ,
 		"repayment": {
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/chosenRepayment.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/chosenRepayment.json"
 		}
 
 	}

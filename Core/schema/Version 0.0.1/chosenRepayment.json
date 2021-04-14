@@ -1,16 +1,16 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/choosenRepayment.json", 
+	"$id": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/choosenRepayment.json", 
 	"type": "object",
 	"required": [
 		"plan"
     ],
     "properties": {
         "plan":{
-            "$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/paymentplan.json"
+            "$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/paymentplan.json"
         },
         "method":{
-            "$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/paymentmethod.json"
+            "$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/paymentmethod.json"
         }
     }
 }

@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://bagisto.collegechalo.com/ocen/Disbursement/schema/Version%200.0.1/Set%20Disbursement%20Account/SetDisbursementAccountRequest.json",  
+	"$id": "http://143.110.176.172/ocen/Disbursement/schema/Version%200.0.1/Set%20Disbursement%20Account/SetDisbursementAccountRequest.json",  
 	"type": "object",
 	"required": [
 		"metadata",
@@ -10,7 +10,7 @@
 	],
 	"properties": {
 		"metadata": { 
-            "$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/metadata.json"
+            "$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/metadata.json"
 		}
 ,
 		"requestId": { 
@@ -29,7 +29,7 @@
 			"type":"string"
 		},
 		"account": { 
-			"$ref": "https://bagisto.collegechalo.com/ocen/Core/schema/Version%200.0.1/accountdetails.json"
+			"$ref": "http://143.110.176.172/ocen/Core/schema/Version%200.0.1/accountdetails.json"
 		}
 
 	}
